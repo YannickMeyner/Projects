@@ -1,0 +1,473 @@
+@media only screen and (max-width: 420px) {
+    .trialcard { width: 90%; }
+	.featureauto { width: 35px; height: 35px; margin-left: 10px;}
+	.autotexttitle { font-size: 16px; margin-left: 50px;}
+	.autotext { font-size: 12px; margin-left: 50px; margin-top: -355px;}
+	.featuresafe { width: 35px; height: 35px; margin-left: 10px; margin-top: -280px;}
+	.safetexttitle { font-size: 16px; margin-left: 50px; margin-top: -275px;}
+	.safetext { font-size: 12px; margin-left: 50px; margin-top: -252px;}
+	.featurefast { width: 35px; height: 35px; margin-left: 10px; margin-top: -180px;}
+	.fasttexttitle { font-size: 16px; margin-left: 50px; margin-top: -175px;}
+	.fasttext { font-size: 12px; margin-left: 50px; margin-top: -152px;}
+	.featureaccount { width: 35px; height: 35px; margin-left: 10px; margin-top: -80px;}
+	.accounttexttitle { font-size: 16px; margin-left: 50px; margin-top: -75px;}
+	.accounttext { font-size: 12px; margin-left: 50px; margin-top: -52px;}
+	.featureupdates { width: 35px; height: 35px; margin-left: 10px; margin-top: 20px;}
+	.updatestexttitle { font-size: 16px; margin-left: 50px; margin-top: 25px;}
+	.updatestext { font-size: 12px; margin-left: 50px; margin-top: 48px;}
+	.featuresupport { width: 35px; height: 35px; margin-left: 10px; margin-top: 120px;}
+	.supporttexttitle { font-size: 16px; margin-left: 50px; margin-top: 125px;}
+	.supporttext { font-size: 12px; margin-left: 50px; margin-top: 148px;}
+}
+
+@media only screen and (max-width: 600px) and (min-width : 420px){
+    .trialcard { width: 90%; }
+	.featureauto { width: 50px; height: 50px; margin-left: 10px;}
+	.autotexttitle { font-size: 20px; margin-left: 65px;}
+	.autotext { font-size: 16px; margin-left: 65px; margin-top: -350px;}
+	.featuresafe { width: 50px; height: 50px; margin-left: 10px; margin-top: -240px;}
+	.safetexttitle { font-size: 20px; margin-left: 65px; margin-top: -235px;}
+	.safetext { font-size: 16px; margin-left: 65px; margin-top: -208px;}
+	.featurefast { width: 50px; height: 50px; margin-left: 10px; margin-top: -100px;}
+	.fasttexttitle { font-size: 20px; margin-left: 65px; margin-top: -95px;}
+	.fasttext { font-size: 16px; margin-left: 65px; margin-top: -66px;}
+	.featureaccount { width: 50px; height: 50px; margin-left: 10px; margin-top: 40px;}
+	.accounttexttitle { font-size: 20px; margin-left: 65px; margin-top: 42px;}
+	.accounttext { font-size: 16px; margin-left: 65px; margin-top: 70px;}
+	.featureupdates { width: 50px; height: 50px; margin-left: 10px; margin-top: 180px;}
+	.updatestexttitle { font-size: 20px; margin-left: 65px; margin-top: 185px;}
+	.updatestext { font-size: 16px; margin-left: 65px; margin-top: 215px;}
+	.featuresupport { width: 50px; height: 50px; margin-left: 10px; margin-top: 315px;}
+	.supporttexttitle { font-size: 20px; margin-left: 65px; margin-top: 320px;}
+	.supporttext { font-size: 16px; margin-left: 65px; margin-top: 348px;}
+}
+
+@media only screen and (max-width: 780px) and (min-width : 600px){
+    .trialcard { width: 90%; }
+	.featureauto { width: 50px; height: 50px; margin-left: 60px;}
+	.autotexttitle { font-size: 20px; margin-left: 115px;}
+	.autotext { font-size: 16px; margin-left: 115px; margin-top: -350px;}
+	.featuresafe { width: 50px; height: 50px; margin-left: 60px; margin-top: -240px;}
+	.safetexttitle { font-size: 20px; margin-left: 115px; margin-top: -235px;}
+	.safetext { font-size: 16px; margin-left: 115px; margin-top: -208px;}
+	.featurefast { width: 50px; height: 50px; margin-left: 60px; margin-top: -100px;}
+	.fasttexttitle { font-size: 20px; margin-left: 115px; margin-top: -95px;}
+	.fasttext { font-size: 16px; margin-left: 115px; margin-top: -66px;}
+	.featureaccount { width: 50px; height: 50px; margin-left: 60px; margin-top: 40px;}
+	.accounttexttitle { font-size: 20px; margin-left: 115px; margin-top: 42px;}
+	.accounttext { font-size: 16px; margin-left: 115px; margin-top: 70px;}
+	.featureupdates { width: 50px; height: 50px; margin-left: 60px; margin-top: 180px;}
+	.updatestexttitle { font-size: 20px; margin-left: 115px; margin-top: 185px;}
+	.updatestext { font-size: 16px; margin-left: 115px; margin-top: 215px;}
+	.featuresupport { width: 50px; height: 50px; margin-left: 60px; margin-top: 315px;}
+	.supporttexttitle { font-size: 20px; margin-left: 115px; margin-top: 320px;}
+	.supporttext { font-size: 16px; margin-left: 115px; margin-top: 348px;}
+}
+
+@media only screen and (max-width: 850px) and (min-width : 780px){
+	.featureauto { width: 40px; height: 40px; margin-left: 10px;}
+	.autotexttitle { font-size: 20px; margin-left: 55px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 15px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 405px;}
+	.safetexttitle { font-size: 20px; margin-left: 448px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 410px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 10px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 55px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 15px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 405px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 448px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 410px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 10px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 55px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 15px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 405px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 448px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 410px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 900px) and (min-width : 850px){
+	.featureauto { width: 40px; height: 40px; margin-left: 50px;}
+	.autotexttitle { font-size: 20px; margin-left: 95px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 35px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 445px;}
+	.safetexttitle { font-size: 20px; margin-left: 488px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 450px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 50px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 95px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 55px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 445px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 488px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 450px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 50px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 95px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 55px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 445px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 488px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 450px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 950px) and (min-width : 900px){
+	.featureauto { width: 40px; height: 40px; margin-left: 70px;}
+	.autotexttitle { font-size: 20px; margin-left: 115px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 55px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 465px;}
+	.safetexttitle { font-size: 20px; margin-left: 505px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 470px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 70px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 115px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 75px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 465px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 505px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 470px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 70px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 115px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 75px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 465px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 505px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 470px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 1000px) and (min-width : 950px){
+	.featureauto { width: 40px; height: 40px; margin-left: 90px;}
+	.autotexttitle { font-size: 20px; margin-left: 135px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 95px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 485px;}
+	.safetexttitle { font-size: 20px; margin-left: 527px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 490px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 90px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 135px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 95px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 485px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 527px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 490px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 90px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 135px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 95px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 485px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 527px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 490px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 1050px) and (min-width : 1000px){
+	.featureauto { width: 40px; height: 40px; margin-left: 110px;}
+	.autotexttitle { font-size: 20px; margin-left: 155px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 115px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 505px;}
+	.safetexttitle { font-size: 20px; margin-left: 547px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 510px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 110px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 155px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 115px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 505px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 547px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 510px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 110px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 155px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 115px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 505px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 547px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 510px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 1100px) and (min-width : 1050px){
+	.featureauto { width: 40px; height: 40px; margin-left: 130px;}
+	.autotexttitle { font-size: 20px; margin-left: 175px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 135px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 525px;}
+	.safetexttitle { font-size: 20px; margin-left: 567px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 530px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 130px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 175px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 135px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 525px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 567px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 530px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 130px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 175px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 135px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 525px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 567px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 530px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 1150px) and (min-width : 1100px){
+	.featureauto { width: 40px; height: 40px; margin-left: 150px;}
+	.autotexttitle { font-size: 20px; margin-left: 195px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 155px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 545px;}
+	.safetexttitle { font-size: 20px; margin-left: 587px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 550px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 150px; margin-top: -220px;}
+	.fasttexttitle { font-size: 20px; margin-left: 195px; margin-top: -216px;}
+	.fasttext { font-size: 14px; margin-left: 155px; margin-top: -180px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 545px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 587px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 550px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 150px; margin-top: -60px;}
+	.updatestexttitle { font-size: 20px; margin-left: 195px; margin-top: -53px;}
+	.updatestext { font-size: 14px; margin-left: 155px; margin-top: -18px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 545px; margin-top: -60px;}
+	.supporttexttitle { font-size: 20px; margin-left: 587px; margin-top: -55px;}
+	.supporttext { font-size: 14px; margin-left: 550px; margin-top: -18px;}
+}
+
+@media only screen and (max-width: 1250px) and (min-width : 1150px){
+	.featureauto { width: 40px; height: 40px; margin-left: 10px;}
+	.autotexttitle { font-size: 20px; margin-left: 55px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 15px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 395px;}
+	.safetexttitle { font-size: 20px; margin-left: 437px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 400px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 782px;}
+	.fasttexttitle { font-size: 20px; margin-left: 817px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 787px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 10px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 55px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 15px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 395px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 437px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 400px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 782px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 822px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 787px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1300px) and (min-width : 1250px){
+	.featureauto { width: 40px; height: 40px; margin-left: 30px;}
+	.autotexttitle { font-size: 20px; margin-left: 75px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 35px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 425px;}
+	.safetexttitle { font-size: 20px; margin-left: 467px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 430px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 822px;}
+	.fasttexttitle { font-size: 20px; margin-left: 857px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 827px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 30px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 75px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 35px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 425px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 467px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 430px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 822px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 862px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 827px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1350px) and (min-width : 1300px){
+	.featureauto { width: 40px; height: 40px; margin-left: 30px;}
+	.autotexttitle { font-size: 20px; margin-left: 75px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 35px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 445px;}
+	.safetexttitle { font-size: 20px; margin-left: 487px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 450px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 862px;}
+	.fasttexttitle { font-size: 20px; margin-left: 897px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 867px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 30px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 75px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 35px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 445px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 487px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 450px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 862px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 902px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 867px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1500px) and (min-width : 1350px){
+	.featureauto { width: 40px; height: 40px; margin-left: 30px;}
+	.autotexttitle { font-size: 20px; margin-left: 75px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 35px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 475px;}
+	.safetexttitle { font-size: 20px; margin-left: 517px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 480px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 922px;}
+	.fasttexttitle { font-size: 20px; margin-left: 957px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 927px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 30px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 75px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 35px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 475px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 517px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 480px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 922px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 962px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 927px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1600px) and (min-width : 1500px){
+	.featureauto { width: 40px; height: 40px; margin-left: 130px;}
+	.autotexttitle { font-size: 20px; margin-left: 175px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 135px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 575px;}
+	.safetexttitle { font-size: 20px; margin-left: 617px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 580px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 1022px;}
+	.fasttexttitle { font-size: 20px; margin-left: 1057px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 1027px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 130px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 175px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 135px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 575px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 617px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 580px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 1022px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 1052px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 1027px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1700px) and (min-width : 1600px){
+	.featureauto { width: 40px; height: 40px; margin-left: 230px;}
+	.autotexttitle { font-size: 20px; margin-left: 275px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 235px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 675px;}
+	.safetexttitle { font-size: 20px; margin-left: 717px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 680px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 1122px;}
+	.fasttexttitle { font-size: 20px; margin-left: 1157px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 1127px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 230px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 275px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 235px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 675px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 717px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 680px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 1122px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 1152px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 1127px; margin-top: -180px;}
+}
+
+@media only screen and (max-width: 1800px) and (min-width : 1700px){
+	.featureauto { width: 40px; height: 40px; margin-left: 330px;}
+	.autotexttitle { font-size: 20px; margin-left: 375px; margin-top: -375px;}
+	.autotext { font-size: 14px; margin-left: 335px; margin-top: -340px;}
+	.featuresafe { width: 40px; height: 40px; margin-left: 775px;}
+	.safetexttitle { font-size: 20px; margin-left: 817px; margin-top: -370px;}
+	.safetext { font-size: 14px; margin-left: 780px; margin-top: -340px;}
+	.featurefast { width: 40px; height: 40px; margin-left: 1222px;}
+	.fasttexttitle { font-size: 20px; margin-left: 1257px; margin-top: -373px;}
+	.fasttext { font-size: 14px; margin-left: 1227px; margin-top: -340px;}
+	.featureaccount { width: 40px; height: 40px; margin-left: 330px; margin-top: -220px;}
+	.accounttexttitle { font-size: 20px; margin-left: 375px; margin-top: -216px;}
+	.accounttext { font-size: 14px; margin-left: 335px; margin-top: -180px;}
+	.featureupdates { width: 40px; height: 40px; margin-left: 775px; margin-top: -220px;}
+	.updatestexttitle { font-size: 20px; margin-left: 817px; margin-top: -216px;}
+	.updatestext { font-size: 14px; margin-left: 780px; margin-top: -180px;}
+	.featuresupport { width: 40px; height: 40px; margin-left: 1222px; margin-top: -222px;}
+	.supporttexttitle { font-size: 20px; margin-left: 1252px; margin-top: -216px;}
+	.supporttext { font-size: 14px; margin-left: 1227px; margin-top: -180px;}
+}
+
+/* Smallest resolution */
+@media only screen and (max-width: 300px){
+	.trialtop { margin-left: 10px; width: 240px; height: 45px; margin-top: 240px;}
+	.trialmain { margin-left: 10px; width: 240px; margin-top: 285px;}
+	.trialbottom { margin-left: 10px; width: 240px; height: 45px; margin-top: 565px;}
+	.trialbtndetails { margin-left: 10px; width: 118px; height: 45px; margin-top: 565px;}
+	.trialdetailstext { margin-left: 28px; margin-top: 9px; font-size: 20px;}
+	.trialbtnbuy { margin-left: 132px; width: 118px; height: 45px; margin-top: 565px;}
+	.trialbuytext { margin-left: 40px; margin-top: 9px; font-size: 20px;}
+	.trialtext { margin-top: -3px; font-size: 24px;}
+}
+
+/* iPhone 5/SE */
+@media only screen and (max-width: 320px) and (min-width : 300px){
+	.trialtop { margin-left: 10px; width: 315px; height: 45px; margin-top: 240px;}
+	.trialmain { margin-left: 10px; width: 315px; margin-top: 285px;}
+	.trialbottom { margin-left: 10px; width: 315px; height: 45px; margin-top: 565px;}
+	.trialbtndetails { margin-left: 10px; width: 155px; height: 45px; margin-top: 565px;}
+	.trialdetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.trialbtnbuy { margin-left: 170px; width: 155px; height: 45px; margin-top: 565px;}
+	.trialbuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.trialtext { margin-top: -3px; font-size: 24px;}
+}
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) and (min-width : 320px){
+	.trialtop { margin-left: 10px; width: 340px; height: 45px; margin-top: 240px;}
+	.trialmain { margin-left: 10px; width: 340px; margin-top: 285px;}
+	.trialbottom { margin-left: 10px; width: 340px; height: 45px; margin-top: 565px;}
+	.trialbtndetails { margin-left: 10px; width: 167px; height: 45px; margin-top: 565px;}
+	.trialdetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.trialbtnbuy { margin-left: 183px; width: 167px; height: 45px; margin-top: 565px;}
+	.trialbuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.trialtext { margin-top: -3px; font-size: 24px;}
+}
+
+/* Smallest resolution */
+@media only screen and (max-width: 300px){
+	.standardtop { margin-left: 10px; width: 240px; height: 45px; margin-top: 640px;}
+	.standardmain { margin-left: 10px; width: 240px; margin-top: 685px;}
+	.standardbottom { margin-left: 10px; width: 240px; height: 45px; margin-top: 965px;}
+	.standardbtndetails { margin-left: 10px; width: 118px; height: 45px; margin-top: 965px;}
+	.standarddetailstext { margin-left: 28px; margin-top: 9px; font-size: 20px;}
+	.standardbtnbuy { margin-left: 132px; width: 118px; height: 45px; margin-top: 965px;}
+	.standardbuytext { margin-left: 40px; margin-top: 9px; font-size: 20px;}
+	.standardtext { margin-top: -3px; font-size: 24px; margin-left: 30px;}
+	.standarddescription { margin-left: 158px;}
+}
+
+/* iPhone 5/SE */
+@media only screen and (max-width: 320px) and (min-width : 300px){
+	.standardtop { margin-left: 10px; width: 315px; height: 45px; margin-top: 640px;}
+	.standardmain { margin-left: 10px; width: 315px; margin-top: 685px;}
+	.standardbottom { margin-left: 10px; width: 315px; height: 45px; margin-top: 965px;}
+	.standardbtndetails { margin-left: 10px; width: 155px; height: 45px; margin-top: 965px;}
+	.standarddetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.standardbtnbuy { margin-left: 170px; width: 155px; height: 45px; margin-top: 965px;}
+	.standardbuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.standardtext { margin-top: -5px; font-size: 24px;}
+	.standarddescription { margin-left: 242px;}
+}
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) and (min-width : 320px){
+	.standardtop { margin-left: 10px; width: 340px; height: 45px; margin-top: 640px;}
+	.standardmain { margin-left: 10px; width: 340px; margin-top: 685px;}
+	.standardbottom { margin-left: 10px; width: 340px; height: 45px; margin-top: 965px;}
+	.standardbtndetails { margin-left: 10px; width: 167px; height: 45px; margin-top: 965px;}
+	.standarddetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.standardbtnbuy { margin-left: 183px; width: 167px; height: 45px; margin-top: 965px;}
+	.standardbuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.standardtext { margin-top: -5px; font-size: 24px;}
+	.standarddescription { margin-left: 253px;}
+}
+
+/* Smallest resolution */
+@media only screen and (max-width: 300px){
+	.lifetimetop { margin-left: 10px; width: 240px; height: 45px; margin-top: 1040px;}
+	.lifetimemain { margin-left: 10px; width: 240px; margin-top: 1085px;}
+	.lifetimebottom { margin-left: 10px; width: 240px; height: 45px; margin-top: 1365px;}
+	.lifetimebtndetails { margin-left: 10px; width: 118px; height: 45px; margin-top: 1365px;}
+	.lifetimedetailstext { margin-left: 28px; margin-top: 9px; font-size: 20px;}
+	.lifetimebtnbuy { margin-left: 132px; width: 118px; height: 45px; margin-top: 1365px;}
+	.lifetimebuytext { margin-left: 40px; margin-top: 9px; font-size: 20px;}
+	.lifetimetext { margin-top: -5px; font-size: 24px; margin-left: 60px;}
+	.lifetimedescription { margin-left: 200px;}
+}
+
+/* iPhone 5/SE */
+@media only screen and (max-width: 320px) and (min-width : 300px){
+	.lifetimetop { margin-left: 10px; width: 315px; height: 45px; margin-top: 1040px;}
+	.lifetimemain { margin-left: 10px; width: 315px; margin-top: 1085px;}
+	.lifetimebottom { margin-left: 10px; width: 315px; height: 45px; margin-top: 1365px;}
+	.lifetimebtndetails { margin-left: 10px; width: 155px; height: 45px; margin-top: 1365px;}
+	.lifetimedetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.lifetimebtnbuy { margin-left: 170px; width: 155px; height: 45px; margin-top: 1365px;}
+	.lifetimebuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.lifetimetext { margin-top: -3px; font-size: 24px;}
+	.lifetimedescription { margin-left: 275px;}
+}
+
+/* Galaxy S5 */
+@media only screen and (max-width: 360px) and (min-width : 320px){
+	.lifetimetop { margin-left: 10px; width: 340px; height: 45px; margin-top: 1040px;}
+	.lifetimemain { margin-left: 10px; width: 340px; margin-top: 1085px;}
+	.lifetimebottom { margin-left: 10px; width: 340px; height: 45px; margin-top: 1365px;}
+	.lifetimebtndetails { margin-left: 10px; width: 167px; height: 45px; margin-top: 1365px;}
+	.lifetimedetailstext { margin-left: 50px; margin-top: 9px; font-size: 20px;}
+	.lifetimebtnbuy { margin-left: 183px; width: 167px; height: 45px; margin-top: 1365px;}
+	.lifetimebuytext { margin-left: 60px; margin-top: 9px; font-size: 20px;}
+	.lifetimetext { margin-top: -3px; font-size: 24px;}
+	.lifetimedescription { margin-left: 295px;}
+}

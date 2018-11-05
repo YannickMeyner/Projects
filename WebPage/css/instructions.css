@@ -1,0 +1,371 @@
+.instructiontitle {
+	color: #74D680;
+	font-weight: bold;
+	text-align: center;
+	font-size: 32px;
+	margin-top: -390px;
+}
+
+/*---------------------------------------------------*/
+
+.instructionline1 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 44px;
+	margin-left: 950px;
+	margin-top: 40px;
+}
+
+.instructionline2 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 105px;
+	margin-left: 950px;
+	margin-top: 108px;
+}
+
+.instructionline3 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 130px;
+	margin-left: 950px;
+	margin-top: 238px;
+}
+
+.instructionline4 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 130px;
+	margin-left: 950px;
+	margin-top: 392px;
+}
+
+.instructionline5 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 130px;
+	margin-left: 950px;
+	margin-top: 548px;
+}
+
+.instructionline6 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 180px;
+	margin-left: 950px;
+	margin-top: 702px;
+}
+
+.instructionline7 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 180px;
+	margin-left: 950px;
+	margin-top: 910px;
+}
+
+.instructionline8 {
+	position: absolute;
+	background-color: #74D680;
+	width: 4px;
+	height: 180px;
+	margin-left: 950px;
+	margin-top: 1117px;
+}
+
+/*---------------------------------------------------*/
+
+.circle1 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 80px;
+}
+
+.circle2 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 210px;
+}
+
+.circle3 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 365px;
+}
+
+.circle4 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 520px;
+}
+
+.circle5 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 675px;
+}
+
+.circle6 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 880px;
+}
+
+
+.circle7 {
+  	position: absolute;
+  	-moz-border-radius: 30px/30px;
+  	-webkit-border-radius: 30px 30px;
+  	border-radius: 30px/30px;
+  	border: solid 4px #74D680;
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 937px;
+	margin-top: 1088px;
+}
+/*---------------------------------------------------*/
+
+.instructionlinevertical1 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 970px;
+	margin-top: 77px;
+}
+
+.instructionlinevertical2 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 393px;
+	margin-top: 208px;
+}
+
+.instructionlinevertical3 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 970px;
+	margin-top: 362px;
+}
+
+.instructionlinevertical4 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 393px;
+	margin-top: 518px;
+}
+
+.instructionlinevertical5 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 970px;
+	margin-top: 672px;
+}
+
+.instructionlinevertical6 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 393px;
+	margin-top: 879px;
+}
+
+.instructionlinevertical7 {
+	position: absolute;
+	color: #74D680;
+	margin-left: 970px;
+	margin-top: 1086px;
+}
+/*---------------------------------------------------*/
+
+.introtitle1 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 972px;
+	margin-top: 66px;
+}
+
+.introtitle2 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 393px;
+	margin-top: 197px;
+}
+
+.introtitle3 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 972px;
+	margin-top: 352px;
+}
+
+.introtitle4 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 393px;
+	margin-top: 508px;
+}
+
+.introtitle5 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 972px;
+	margin-top: 662px;
+}
+
+.introtitle6 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 393px;
+	margin-top: 868px;
+}
+
+.introtitle7 {
+	color: #979292;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 972px;
+	margin-top: 1075px;
+}
+
+/*---------------------------------------------------*/
+
+.introtext1 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 972px;
+}
+
+.introtext2 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 232px;
+	margin-left: 393px;
+}
+
+.introtext3 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 385px;
+	margin-left: 972px;
+}
+
+.introtext4 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 540px;
+	margin-left: 393px;
+}
+
+.introtext5 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 695px;
+	margin-left: 972px;
+}
+
+.introtext6 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 902px;
+	margin-left: 393px;
+}
+
+.introtext7 {
+	color: #979292;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 1108px;
+	margin-left: 972px;
+}
+
+/*------------------------------------------------------*/
+
+.videotitle {
+	font-size: 32px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 1430px;
+	margin-left: 890px;
+	color: #74D680;
+}
+
+video {
+	position: absolute;
+	margin-top: 1480px;
+	margin-left: 600px;
+}
+
+.videobottom {
+	position: absolute;
+	margin-top: 1930px;
+	height: 100px;
+	width: 100px;
+}

@@ -1,0 +1,138 @@
+.donwloadfield {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: #99CCFF;
+	margin-left: 800px;
+}
+
+.downtext {
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.fifatitle {
+	text-decoration: none;
+	color: #74D680;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+	margin-top: -450px;
+}
+
+.version1 {
+	text-decoration: none;
+	color: #74D680;
+	font-weight: bold;
+	font-size: 26px;
+	margin-left: 300px;
+	margin-top: 70px;
+}
+
+.version1description {
+	margin-top: 50px;
+}
+
+.version1description li {
+	text-decoration: none;
+	list-style-type: none;
+	color: #74D680;
+	padding: 8px;
+	margin-left: 95px;
+	
+}
+
+.version1placeholder {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	background-color: #e3e4e6;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.version1download {
+	position: absolute;
+	width: 175px;
+	height: 60px;
+	background-color: #74D680;
+	border-radius: 20px;
+	margin-left: 300px;
+	margin-top: 460px;
+}
+
+.downloadimg {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.version1text {
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 15px;
+	margin-left: 56px;
+}
+
+.version1download:hover {
+	opacity: 0.7;
+}
+
+/* */
+
+.version11 {
+	position: absolute;
+	text-decoration: none;
+	color: #74D680;
+	font-weight: bold;
+	font-size: 26px;
+	margin-left: 1350px;
+	margin-top: -220px;
+}
+
+.version11description li {
+	list-style-type: none;
+}
+
+.version11placeholder {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	background-color: #e3e4e6;
+	margin-left: 1240px;
+	margin-top: 35px;
+}
+
+.version11download {
+	position: absolute;
+	width: 175px;
+	height: 60px;
+	background-color: #74D680;
+	border-radius: 20px;
+	margin-left: 1450px;
+	margin-top: 460px;
+	opacity: 0.5;
+}
+
+.version11text {
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 15px;
+	margin-left: 56px;
+}
+
+/*
+.version11download:hover {
+	opacity: 0.7;
+}
+*/
