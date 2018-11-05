@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="699.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autobuyerdesign.TradePileController">
+   <children>
+      <AnchorPane layoutY="63.0" prefHeight="2.0" prefWidth="1134.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblAutobuyer" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="494.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblTradePile" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="704.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSnipingFilter" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1034.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblStats" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAutobuyerSelected" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSnipingFilterSelected" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTradePileSelected" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#99ccff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStatsSelected" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="879.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSettings" layoutX="908.0" layoutY="16.0" onMouseClicked="#settingsSelected" text="Settings" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSettingsSelected" layoutX="908.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Settings" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="76.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="221.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="366.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="511.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="656.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="801.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="946.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="452.0" layoutY="107.0" text="Unlisted Players:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="452.0" layoutY="143.0" text="Listed Players:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNumberPlayers" layoutX="646.0" layoutY="108.0" text="Updating..." textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblListedPlayers" layoutX="648.0" layoutY="143.0" text="Updating..." textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="75.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="220.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="365.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="510.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="655.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="800.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="121.0" layoutX="945.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/card.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblPlayer1" layoutX="85.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer2" layoutX="230.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer3" layoutX="375.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer4" layoutX="521.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer5" layoutX="666.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer6" layoutX="811.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer7" layoutX="956.0" layoutY="379.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer8" layoutX="85.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer9" layoutX="230.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer10" layoutX="376.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer11" layoutX="519.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer12" layoutX="666.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer13" layoutX="810.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer14" layoutX="955.0" layoutY="615.0" text="Player Name" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice1" layoutX="129.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice2" layoutX="277.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice3" layoutX="420.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice4" layoutX="565.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice5" layoutX="710.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice6" layoutX="855.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice7" layoutX="1000.0" layoutY="401.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice8" layoutX="129.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice9" layoutX="277.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice10" layoutX="420.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice11" layoutX="563.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice12" layoutX="710.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice13" layoutX="854.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice14" layoutX="999.0" layoutY="637.0" text="Price" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize1" layoutX="85.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize2" layoutX="230.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize3" layoutX="376.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize4" layoutX="521.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize5" layoutX="666.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize6" layoutX="811.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize7" layoutX="956.0" layoutY="401.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize8" layoutX="85.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize9" layoutX="230.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize10" layoutX="376.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize11" layoutX="519.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize12" layoutX="666.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize13" layoutX="810.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerPrize14" layoutX="955.0" layoutY="637.0" text="Price:" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

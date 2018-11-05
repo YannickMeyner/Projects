@@ -1,0 +1,7 @@
+.text-field
+{
+    -fx-font-size : 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: derive(#FFFF8D, 20%);
+    -fx-prompt-text-fill: white;
+}

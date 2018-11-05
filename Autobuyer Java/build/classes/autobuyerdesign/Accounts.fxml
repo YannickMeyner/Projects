@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="699.0" prefWidth="1134.0" stylesheets="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Styles/image.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autobuyerdesign.AccountsController">
+   <children>
+      <AnchorPane prefHeight="57.0" prefWidth="1134.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="464.0" layoutY="11.0" text="Account Overview" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="82.0" layoutY="166.0" prefHeight="45.0" prefWidth="970.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" style="-fx-font-weight: bold;" text="1" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="40.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="57.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Email:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="416.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label fx:id="lblMail1" layoutX="122.0" layoutY="14.0" style="-fx-font-weight: bold;" text="anonymousgang111@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Club:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClub1" layoutX="494.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Rosario" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="627.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="652.0" layoutY="10.0" style="-fx-font-weight: bold;" text="Profit:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProfit1" layoutX="722.0" layoutY="16.0" style="-fx-font-weight: bold;" text="12500" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="838.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="857.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="905.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="925.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/checked.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnChecked1" layoutX="920.0" layoutY="6.0" mnemonicParsing="false" onAction="#checkAccountOne" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnSettings1" layoutX="852.0" layoutY="6.0" mnemonicParsing="false" onAction="#settingsAccountOne" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="82.0" layoutY="257.0" prefHeight="45.0" prefWidth="970.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" style="-fx-font-weight: bold;" text="2" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="40.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="57.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Email:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="416.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label fx:id="lblMail2" layoutX="122.0" layoutY="14.0" style="-fx-font-weight: bold;" text="anonymousgang111@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Club:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClub2" layoutX="494.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Rosario" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="627.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="652.0" layoutY="10.0" style="-fx-font-weight: bold;" text="Profit:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProfit2" layoutX="722.0" layoutY="16.0" style="-fx-font-weight: bold;" text="12500" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="838.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="857.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="905.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="925.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/checked.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSettings2" layoutX="851.0" layoutY="5.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnChecked2" layoutX="919.0" layoutY="5.0" mnemonicParsing="false" onAction="#checkAccountTwo" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="82.0" layoutY="348.0" prefHeight="45.0" prefWidth="970.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" style="-fx-font-weight: bold;" text="3" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="40.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="57.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Email:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="416.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label fx:id="lblMail3" layoutX="122.0" layoutY="14.0" style="-fx-font-weight: bold;" text="anonymousgang111@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Club:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClub3" layoutX="494.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Rosario" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="627.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="652.0" layoutY="10.0" style="-fx-font-weight: bold;" text="Profit:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProfit3" layoutX="722.0" layoutY="16.0" style="-fx-font-weight: bold;" text="12500" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="838.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="857.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="905.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="925.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/checked.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSettings3" layoutX="852.0" layoutY="6.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnChecked3" layoutX="919.0" layoutY="6.0" mnemonicParsing="false" onAction="#checkAccountThree" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="82.0" layoutY="439.0" prefHeight="45.0" prefWidth="970.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" style="-fx-font-weight: bold;" text="4" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="40.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="57.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Email:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="416.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label fx:id="lblMail4" layoutX="122.0" layoutY="14.0" style="-fx-font-weight: bold;" text="anonymousgang111@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Club:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClub4" layoutX="494.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Rosario" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="627.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="652.0" layoutY="10.0" style="-fx-font-weight: bold;" text="Profit:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProfit4" layoutX="722.0" layoutY="16.0" style="-fx-font-weight: bold;" text="12500" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="838.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="857.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="905.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="925.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/checked.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSettings4" layoutX="852.0" layoutY="5.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnChecked4" layoutX="919.0" layoutY="5.0" mnemonicParsing="false" onAction="#checkAccountFour" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="82.0" layoutY="530.0" prefHeight="45.0" prefWidth="970.0" style="-fx-background-color: #8B9DC3;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" style="-fx-font-weight: bold;" text="5" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="40.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="57.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Email:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="416.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label fx:id="lblMail5" layoutX="122.0" layoutY="14.0" style="-fx-font-weight: bold;" text="anonymousgang111@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="9.0" style="-fx-font-weight: bold;" text="Club:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClub5" layoutX="494.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Rosario" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="627.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <Label layoutX="652.0" layoutY="10.0" style="-fx-font-weight: bold;" text="Profit:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblProfit5" layoutX="722.0" layoutY="16.0" style="-fx-font-weight: bold;" text="12500" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="838.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="857.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="905.0" layoutY="8.0" prefHeight="30.0" prefWidth="3.0" style="-fx-background-color: white;" />
+            <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="925.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/checked.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSettings5" layoutX="852.0" layoutY="6.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnChecked5" layoutX="919.0" layoutY="6.0" mnemonicParsing="false" onAction="#checkAccountFive" prefHeight="35.0" prefWidth="41.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="45.0" fitWidth="49.0" layoutX="1075.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Yannick/OneDrive/Netbeans/autobuyerDesign/Images/settings2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

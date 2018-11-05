@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="699.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autobuyerdesign.StatsController">
+   <children>
+      <AnchorPane layoutY="63.0" prefHeight="2.0" prefWidth="1134.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblAutobuyer" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="494.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblTradePile" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="704.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSnipingFilter" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1034.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblStats" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAutobuyerSelected" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSnipingFilterSelected" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTradePileSelected" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStatsSelected" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#99ccff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="879.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSettings" layoutX="908.0" layoutY="16.0" onMouseClicked="#settingsSelected" text="Settings" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSettingsSelected" layoutX="908.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Settings" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="163.0" onMouseClicked="#tradepileSelected" text="Profit:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLoss" layoutX="171.0" layoutY="163.0" onMouseClicked="#tradepileSelected" text="Profit:" textFill="#d9534f" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblProfit" layoutX="171.0" layoutY="163.0" onMouseClicked="#tradepileSelected" text="Profit:" textFill="#54d35b" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="274.0" onMouseClicked="#tradepileSelected" text="Duration:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="222.0" onMouseClicked="#tradepileSelected" text="Expected Profit/Hour:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

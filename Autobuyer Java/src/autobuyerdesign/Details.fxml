@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="388.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autobuyerdesign.DetailsController">
+   <children>
+      <Label fx:id="lblPlayer" layoutX="33.0" layoutY="67.0" style="-fx-font-weight: bold;" text="Playername:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayerName" layoutX="117.0" layoutY="67.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBuy" layoutX="33.0" layoutY="100.0" style="-fx-font-weight: bold;" text="Buy Price:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSell" layoutX="33.0" layoutY="133.0" style="-fx-font-weight: bold;" text="Sell Price:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUpdate" layoutX="33.0" layoutY="166.0" style="-fx-font-weight: bold;" text="Price Update:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBuyPrice" layoutX="104.0" layoutY="100.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSellPrice" layoutX="103.0" layoutY="133.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPriceUpdate" layoutX="128.0" layoutY="166.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblClub" layoutX="33.0" layoutY="199.0" style="-fx-font-weight: bold;" text="Club:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilterPrice" layoutX="33.0" layoutY="232.0" style="-fx-font-weight: bold;" text="Price:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilterClub" layoutX="72.0" layoutY="199.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFilterPrice2" layoutX="74.0" layoutY="232.0" style="-fx-font-weight: bold;" text="Test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

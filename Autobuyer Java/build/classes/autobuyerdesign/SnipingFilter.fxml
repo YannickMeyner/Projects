@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="699.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autobuyerdesign.SnipingFilterController">
+   <children>
+      <AnchorPane layoutY="63.0" prefHeight="2.0" prefWidth="1134.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblAutobuyer" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="494.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblTradePile" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="704.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSnipingFilter" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#8b9dc3" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1034.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblStats" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAutobuyerSelected" layoutX="347.0" layoutY="14.0" onMouseClicked="#autobuyerSelected" text="Autobuyer" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSnipingFilterSelected" layoutX="521.0" layoutY="16.0" onMouseClicked="#snipingfilterSelected" text="Sniping Filter" textFill="#99ccff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTradePileSelected" layoutX="736.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Trade Pile" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStatsSelected" layoutX="1060.0" layoutY="16.0" onMouseClicked="#statsSelected" text="Stats" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="879.0" layoutY="10.0" prefHeight="47.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSettings" layoutX="908.0" layoutY="16.0" onMouseClicked="#settingsSelected" text="Settings" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSettingsSelected" layoutX="908.0" layoutY="16.0" onMouseClicked="#tradepileSelected" text="Settings" textFill="#99ccff" visible="false">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="566.0" layoutY="83.0" prefHeight="600.0" prefWidth="3.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSnipingFilterSelected1" layoutX="228.0" layoutY="83.0" onMouseClicked="#snipingfilterSelected" text="Add Filter" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSnipingFilterSelected11" layoutX="774.0" layoutY="83.0" onMouseClicked="#snipingfilterSelected" text="Add Player-List" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="147.0" onMouseClicked="#snipingfilterSelected" text="Player Quality:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboQuality" layoutX="188.0" layoutY="149.0" onAction="#changeQuality" prefWidth="150.0" promptText="None" style="-fx-background-color: #8b9dc3;" />
+      <ImageView fx:id="imgQuality" fitHeight="47.0" fitWidth="56.0" layoutX="348.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/bronze.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="197.0" onMouseClicked="#snipingfilterSelected" text="Position:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboPosition" layoutX="188.0" layoutY="200.0" onAction="#changePosition" prefWidth="150.0" promptText="None" style="-fx-background-color: #8b9dc3;" />
+      <ImageView fx:id="imgPosition" fitHeight="47.0" fitWidth="38.0" layoutX="353.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/Defenders.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="248.0" onMouseClicked="#snipingfilterSelected" text="Chemistry Style:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboChemistry" layoutX="188.0" layoutY="251.0" onAction="#changeChemistry" prefWidth="150.0" promptText="Basic" style="-fx-background-color: #8b9dc3;" />
+      <ImageView fx:id="imgChemistry" fitHeight="47.0" fitWidth="38.0" layoutX="351.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../FifaImages/chem5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="299.0" onMouseClicked="#snipingfilterSelected" text="Nationality:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboNationality" layoutX="188.0" layoutY="302.0" onAction="#changeNationality" prefWidth="150.0" promptText="None" style="-fx-background-color: #8b9dc3;" visible="false" />
+      <ImageView fx:id="imgNationality" fitHeight="47.0" fitWidth="38.0" layoutX="351.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Nationalities/Brazil.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="350.0" onMouseClicked="#snipingfilterSelected" text="Club:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboClub" layoutX="188.0" layoutY="353.0" onAction="#changeClub" prefWidth="150.0" promptText="None" style="-fx-background-color: #8b9dc3;" />
+      <ImageView fx:id="imgClub" fitHeight="35.0" fitWidth="38.0" layoutX="353.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Clubs/21%20(2017_11_16%2016_03_46%20UTC).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="401.0" onMouseClicked="#snipingfilterSelected" text="Max Prize:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFilterPrize" layoutX="188.0" layoutY="404.0" style="-fx-background-color: #8b9dc3;" />
+      <Button layoutX="434.0" layoutY="396.0" mnemonicParsing="false" onAction="#saveFilter" prefHeight="41.0" prefWidth="121.0" style="-fx-font-weight: bold;" stylesheets="@../Styles/autobuyer.css" text="Save Filter" textFill="#8b9dc3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="3.0" layoutY="454.0" prefHeight="2.0" prefWidth="560.0" style="-fx-background-color: #8B9DC3;" />
+      <Label fx:id="lblSnipingFilterSelected12" layoutX="198.0" layoutY="470.0" onMouseClicked="#snipingfilterSelected" text="Filter Overview" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="86.0" layoutY="541.0" prefHeight="82.0" prefWidth="236.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="113.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="10.0" prefWidth="123.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Filter 1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Filter 2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="Filter 3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive1" text="Disabled" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive2" text="Disabled" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive3" text="Disabled" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <RadioButton fx:id="radioFilter3" layoutX="305.0" layoutY="603.0" mnemonicParsing="false" onAction="#radioFilterSelect3" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioFilter2" layoutX="305.0" layoutY="573.0" mnemonicParsing="false" onAction="#radioFilterSelect2" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioFilter1" layoutX="305.0" layoutY="542.0" mnemonicParsing="false" onAction="#radioFilterSelect1" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="txtSearch" layoutX="766.0" layoutY="149.0" prefHeight="25.0" prefWidth="261.0" promptText="Player Name" style="-fx-background-color: #8b9dc3;" />
+      <Label layoutX="597.0" layoutY="146.0" onMouseClicked="#snipingfilterSelected" text="Player Name:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="597.0" layoutY="197.0" onMouseClicked="#snipingfilterSelected" text="Buy Prize:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBuyNow" layoutX="766.0" layoutY="201.0" prefHeight="25.0" prefWidth="261.0" style="-fx-background-color: #8b9dc3;" />
+      <Label layoutX="597.0" layoutY="299.0" onMouseClicked="#snipingfilterSelected" text="Price Update:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="radioUpdateYes" layoutX="766.0" layoutY="304.0" mnemonicParsing="false" onAction="#calculateProfit" text="Yes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <AnchorPane layoutX="572.0" layoutY="454.0" prefHeight="2.0" prefWidth="556.0" style="-fx-background-color: #8B9DC3;" />
+      <Label layoutX="597.0" layoutY="248.0" onMouseClicked="#snipingfilterSelected" text="Sell Prize:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSellPrize" layoutX="766.0" layoutY="251.0" prefHeight="25.0" prefWidth="261.0" style="-fx-background-color: #8b9dc3;" />
+      <Label layoutX="597.0" layoutY="350.0" onMouseClicked="#snipingfilterSelected" text="Profit Calculator:" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblProfitRed" layoutX="769.0" layoutY="351.0" onMouseClicked="#snipingfilterSelected" text="5000" textFill="#d9534f" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="995.0" layoutY="396.0" mnemonicParsing="false" onAction="#saveList" prefHeight="41.0" prefWidth="121.0" style="-fx-font-weight: bold;" stylesheets="@../Styles/autobuyer.css" text="Save List" textFill="#8b9dc3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblSnipingFilterSelected121" layoutX="784.0" layoutY="470.0" onMouseClicked="#snipingfilterSelected" text="List Overview" textFill="#8b9dc3">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="646.0" layoutY="541.0" prefHeight="82.0" prefWidth="236.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="156.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="10.0" prefWidth="80.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="List 1: Bundesliga">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="List 2:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="List 3:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive4" text="Disabled" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive5" text="Disabled" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblActive6" text="Disabled" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <RadioButton fx:id="radioActive3" layoutX="388.0" layoutY="604.0" mnemonicParsing="false" onAction="#radioFilterActivate3" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioActive2" layoutX="388.0" layoutY="574.0" mnemonicParsing="false" onAction="#radioFilterActivate2" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioActive1" layoutX="388.0" layoutY="543.0" mnemonicParsing="false" onAction="#radioFilterActivate1" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioList3" layoutX="897.0" layoutY="602.0" mnemonicParsing="false" onAction="#radioPlayerListSelect3" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioList2" layoutX="897.0" layoutY="572.0" mnemonicParsing="false" onAction="#radioPlayerListSelect2" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioList1" layoutX="897.0" layoutY="541.0" mnemonicParsing="false" onAction="#radioPlayerListSelect1" text="Select">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioActive6" layoutX="980.0" layoutY="603.0" mnemonicParsing="false" onAction="#radioPlayerListActivate3" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioActive5" layoutX="980.0" layoutY="573.0" mnemonicParsing="false" onAction="#radioPlayerListActivate2" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioActive4" layoutX="980.0" layoutY="542.0" mnemonicParsing="false" onAction="#radioPlayerListActivate1" text="Activate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <TextField fx:id="txtNation" layoutX="188.0" layoutY="302.0" prefHeight="25.0" prefWidth="149.0" promptText="Nation" style="-fx-background-color: #8b9dc3;" />
+      <RadioButton fx:id="radioUpdateNo" layoutX="821.0" layoutY="304.0" mnemonicParsing="false" onAction="#calculateProfitNo" text="No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="lblProfitGreen" layoutX="769.0" layoutY="351.0" onMouseClicked="#snipingfilterSelected" text="5000" textFill="#74d680" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
