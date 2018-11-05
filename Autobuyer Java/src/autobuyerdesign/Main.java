@@ -11,6 +11,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -45,13 +47,15 @@ public class Main extends Application {
     String passwordTextFile;
     String securityAnswerTextFile;
     String username = System.getProperty("user.name");
+    ArrayList<String> arr = new ArrayList();
 
     @Override
-    public void start(Stage primaryStage) throws IOException, InterruptedException {
+    public void start(Stage primaryStage) throws IOException, InterruptedException, SQLException {
 
         instance = this;
         readTextFile();
-        Parent root = FXMLLoader.load(getClass().getResource("Accounts.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("Accounts.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
